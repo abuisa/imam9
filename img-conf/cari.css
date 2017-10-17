@@ -1,0 +1,79 @@
+
+body, table, div, tr, td {
+  margin:0px;
+}
+.records {
+    width: 99%;
+    margin: 5px;
+    padding:2px 5px;
+    border:1px solid #B6B6B6;
+}
+
+.record {
+    color: whitesmoke; /*black; oroginal color */
+    margin: 1px; /* 3px 0; */
+    margin-right: 6px;
+    padding: 1px 3px;
+    background: hsla(110, 40%, 90%, 0.2);  /*#E6E6E6; original color*/
+    border: 0.7px dotted #B6B6B6;
+    cursor: pointer;
+    letter-spacing: 2px;
+    font-weight: bolder;
+}
+.record:hover {
+    background: hsla(110, 40%, 90%, 0.1); /*#D3D2D2; original color */
+    color: goldenrod;
+}
+.round { /*--style untuk Sudut siku or cekung----*/
+    -moz-border-radius:2px;
+    -khtml-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius:2px;
+}
+.no{
+    width: 40px;
+}
+.sub{
+    width: 130px;
+}
+.noh{
+    width: 120px;
+}
+.ktb{
+    width: 220px;
+}
+.bab{
+    width: 1220px;
+    padding-left: 14px;
+}
+.cr{
+    color: goldenrod;
+    font-weight: bolder;
+}
+.top{
+    font-size:24px; color: red;
+    text-align: center;
+    border:0px;
+    display: inherit;
+}
+.pgn {
+  text-align: center;
+}
+.hrow{
+    border: 0.7px dotted #B6B6B6;;
+    border-top: 0px;
+    margin-right: 6px;
+    margin-bottom: 5px;
+    position: relative;
+}
+.icon{
+    text-align: right;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+#opt{
+    position:absolute;
+    bottom: 3px;
+    right: 10px;
+    margin-top: 6px;
+}

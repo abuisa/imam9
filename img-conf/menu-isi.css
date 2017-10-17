@@ -1,0 +1,270 @@
+/* Global Styles */
+
+body, table, div, tr, td {
+	margin:0px;
+	}
+table{
+		border-top: 0px solid whitesmoke;
+}
+/*---ISI-KANAN--STYLE AREA DOWN---*/
+iframe {
+	position: absolute;
+	border-top: 0px dotted #CCC ;
+	border-right: 0px dotted #CCC ;
+	border-left: 0px dotted #CCC ;
+	border-bottom: 1px dotted #CCC ;
+  /*width: 1366px;*/
+  top: 68px;
+  width: 80%;
+  height: 90%;
+  letter-spacing:.4em;
+}
+#isif{
+	color:whitesmoke;
+}
+.no{
+	font-weight: bolder;
+}
+.trx{
+	border-color: grey;
+	border-bottom: 2px;
+}
+.tarab-X1 { /*# conf-1 OK fontnya */
+	text-align: justify;
+	/*text-align: right;*/
+	/*letter-spacing:.0.9em;*/
+	letter-spacing: 1px; /*Jarak antar Huruf*/
+	line-height: 38px; /*Jarak antar baris/line/rows*/
+	/*font:32px Arial, Helvetica, sans-serif;*/
+	/*font:32px 'KacstOne';*/
+	/*font:32px 'KacstQurn';*/
+	/*font:40px 'KacstLetter';*/
+	font-size: 22px;
+	color: #CACFD2 ;
+	/*font-family: 'Droid Arabic Kufi', sans-serif;*/
+	font-family: 'Droid Arabic Naskh', serif;
+	padding:8px 8px 8px 8px;
+	vertical-align:top;
+	font-weight: bolder;
+}
+.tarab { /*# conf-1 OK fontnya */
+	font-weight: normal;
+	direction: rtl; /* TIDAK SENGAJA - TAMBAH BARIS INI MEMBUAT RATA KIRI-KANAN DAN AKHIR RATA KANAN */
+	text-align: justify;
+	/*text-align: right;*/
+	/*letter-spacing:.0.9em;*/
+	letter-spacing: 1px; /*Jarak antar Huruf*/
+	line-height: 38px; /*Jarak antar baris/line/rows*/
+	/*font:32px Arial, Helvetica, sans-serif;*/
+	/*font:32px 'KacstOne';*/
+	/*font:32px 'KacstQurn';*/
+	/*font:40px 'KacstLetter';*/
+	font-size: 22px;
+	color: #CACFD2 ;
+	/*font-family: 'Droid Arabic Kufi', sans-serif;*/
+	font-family: 'Droid Arabic Naskh', 'serif';
+	padding:8px 8px 8px 8px;
+	vertical-align:top;
+	/*font-weight: bolder;*/
+}
+
+.tarab-X {
+	text-align: right;
+	/*letter-spacing:.0.9em;*/
+	letter-spacing: 1px; /*Jarak antar Huruf*/
+	line-height: 50px; /*Jarak antar baris/line/rows*/
+	/*font:32px Arial, Helvetica, sans-serif;*/
+	/*font-family: 'KacstOne';*/
+	/*font-family: 'KacstQurn';*/
+	font-family: 'KacstLetter';
+	font-size: 40px;
+	color: #CACFD2 ;
+	/*color: white;*/
+	/*font-family: 'Droid Arabic Kufi', sans-serif;*/
+	/*font-family: 'Droid Arabic Naskh', serif;*/
+	padding:8px 26px 8px 8px;
+	vertical-align:top;
+	font-weight: bolder;
+}
+.tuarab { /*# conf-1 OK fontnya */
+	/*text-align: right;*/
+	text-align: justify;
+	direction: rtl;
+	letter-spacing: 1px; /*Jarak antar Huruf*/
+	line-height: 20px; /*Jarak antar baris/line/rows*/
+	font-family: 'KacstLetter';
+	font-size: 18px;
+	color: #CACFD2 ;
+	padding:8px 8px 8px 8px;
+	vertical-align:top;
+	font-weight: bolder;
+}
+.tindo{
+	width: 730px;
+	color: #CACFD2 ;
+	text-align: justify;
+	/*letter-spacing: 0px; Jarak antar Huruf*/
+	line-height: 54px; /*Jarak antar baris/line/rows*/
+	letter-spacing:1px;
+	padding:8px 8px 8px 10px;
+	vertical-align:top;
+	font:18px Arial, Helvetica, sans-serif;
+	border: 0px solid white;
+}
+.jd{
+	text-align: left;
+	color: #CACFD2 ;
+	/*letter-spacing: 0px; Jarak antar Huruf*/
+	line-height: 54px; /*Jarak antar baris/line/rows*/
+	letter-spacing:1px;
+	padding:4px 4px 4px 6px;
+	vertical-align: middle;
+	font:17px Arial, Helvetica, sans-serif;
+}
+
+/*=======================================
+---MENU-KIRI STYLE AREA DOWN----*/
+.dmenu{
+	position: absolute;
+	left: 1.9%;
+	top: 92px;
+	height: 87%;
+  width: 312px;
+	border: 0px solid #FFF;
+	overflow: auto;
+	overflow-x: hidden;
+	color: goldenrod;
+}
+
+a{
+	color: goldenrod;
+	text-decoration: none;
+}
+a:visited, a:hover, a:active {
+  color: inherit;
+  text-decoration: none;
+}
+
+#hdkitab{
+	top: 60px;
+	left: 1.9%;
+	padding: 4px 4px 2px 44px;
+	position:absolute;
+	text-align: left;
+	width: 260px;
+	background-color: hsla(255, 100%, 100%, 0.1);
+	color: goldenrod;
+	font-weight: bold;
+	font:19px Arial, Helvetica, sans-serif;
+}
+#menukitab, #kitab-tr{
+	width: 100%;
+	}
+#kitab-tr{
+	background-color: hsla(255, 100%, 100%, 0.1);
+	font:15px Arial, Helvetica, sans-serif;
+	font-weight: bolder;
+	border-bottom: 1px solid white;
+}
+
+#kitab-tr :hover{
+	background-color: white; /*hsla(210, 190%, 90%, 0.2);*/
+	color: black;
+	}
+
+
+/*---------BAB-------------*/
+#menubab, #bab-tr {
+	width: 100%;
+}
+#bab-tr{
+	background-color: hsla(255, 100%, 100%, 0.2);
+	color: blanchedalmond;
+	font-weight: bolder;
+	border-bottom: 1px dotted #CCC ;
+	padding-left: 7px;
+}
+#bab-tr :hover{
+	background-color: hsla(120, 80%, 5%, 0.5);
+	color: whitesmoke;
+	}
+
+.nm {
+   width: 26px;
+   padding:0px 6px 0px 7px;
+   }
+/*---------ISI-------------*/
+#isi-tr{
+	background-color: hsla(255, 100%, 100%, 0.1);
+	color: whitesmoke;
+	font-weight: bolder;
+	border-bottom: 1px dotted #CCC ;
+	padding-left: 0px;
+	margin: 5px;
+}
+#isi-tr-x :hover{
+	/*background-color: hsla(120, 80%, 5%, 0.6);
+	color: whitesmoke;*/
+	}
+#isibab-tr{
+	background-color: hsla(120, 80%, 5%, 0.2);
+	color: whitesmoke;
+	font-weight: bolder;
+	border-bottom: 1px dotted #CCC ;
+	padding-left: 0px;
+}
+/*---QURAN-CSS-MENU-SURAH-LIST-----*/
+.qno{
+	width: 23px;
+	padding:2px 2px 2px 2px;
+}
+.qsura{
+	width: 106px;
+	padding:0px 2px 0px 2px;
+}
+.cr{
+    color: goldenrod;
+    font-weight: bolder;
+		cursor: pointer;
+	}
+	/*====DIBAWAH=BOX UNTUK TERJEMAHAN ALQURAN========*/
+.qarab { /*# conf-1 OK fontnya */
+	font-weight: normal;
+	direction: rtl; /* TIDAK SENGAJA - TAMBAH BARIS INI MEMBUAT RATA KIRI-KANAN DAN AKHIR RATA KANAN */
+	text-align: justify;
+	/*text-align: right;*/
+	/*letter-spacing:.0.9em;*/
+	letter-spacing: 1px; /*Jarak antar Huruf*/
+	line-height: 42px; /*Jarak antar baris/line/rows*/
+	font-size: 23px;
+	color: #CACFD2 ;
+	/*font-family: 'Droid Arabic Kufi', sans-serif;*/
+	font-family: 'Droid Arabic Naskh', 'serif';
+	padding:8px 8px 8px 8px;
+	vertical-align:top;
+	/*font-weight: bolder;*/
+}
+	.box {
+		border: 1px;
+		width: 100%;
+		background:hsla(155, 20%, 20%, 0.8);
+		margin:4px auto;
+		border: 1px solid gray;
+		z-index: 1000;
+		position: sticky;
+		display: inline-block;
+	}
+	.isibox{
+	padding: 4px 8px;
+	text-align:justify;
+		/*direction: rtl;*/
+	direction:ltr;
+	line-height: 22px;
+	font:18px Arial, Helvetica, sans-serif;
+	}
+
+	.tutup{
+		top: -2px;
+		right: -2px;
+		position: absolute;
+	}

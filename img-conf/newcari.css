@@ -1,0 +1,371 @@
+body {font-family: "Lato", sans-serif; margin: 0;}
+
+ul.tab {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+
+}
+
+/* Float the list items side by side */
+ul.tab li {float: left;}
+
+/* Style the links inside the list items */
+ul.tab li a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 8px 10px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of links on hover */
+ul.tab li a:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+ul.tab li a:focus, .active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+.taball{
+  width: 95%;
+  top:auto;
+  margin: auto;
+  /*background-color: white;*/
+}
+.notf{
+  width: 100%;
+  top:auto;
+  margin: auto;
+  background-color: white;
+  position:relative;
+}
+.fbox {
+  /*float: right;*/
+  position:absolute;
+  top:10px;
+  right:50px;
+}
+.button {
+    background-color:#f2f2f2;
+    color: #404040;
+    font-weight: bold;
+    /*color:red;*/
+}
+.records {
+    width: 99%;
+    margin: 5px;
+    padding:2px 5px;
+    border:1px solid #B6B6B6;
+}
+
+.record {
+    color: whitesmoke; /*black; oroginal color */
+    margin: 1px; /* 3px 0; */
+    margin-right: 6px;
+    padding: 2px 4px;
+    background: hsla(110, 40%, 90%, 0.2);  /*#E6E6E6; original color*/
+    border: 1px dotted #B6B6B6;
+    border-bottom: 0px;
+    cursor: pointer;
+    letter-spacing: 2px;
+    font-weight: bolder;
+}
+.record:hover {
+    background: hsla(110, 40%, 90%, 0.1); /*#D3D2D2; original color */
+    color: goldenrod;
+}
+.round { /*--style untuk Sudut siku or cekung----*/
+    -moz-border-radius:2px;
+    -khtml-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius:2px;
+}
+.no{
+    width: 40px;
+}
+.sub{
+    width: 130px;
+}
+.noh{
+    width: 120px;
+}
+.ktb{
+    width: 220px;
+}
+.bab{
+    width: 1220px;
+    padding-left: 14px;
+}
+.cr{
+    color: goldenrod;
+    font-weight: bolder;
+}
+.hrow{
+    /*border: 1.7px  dotted #B6B6B6;*/
+    border: 1px dashed #B6B6B6;
+    border-top: 0px;
+    margin-right: 6px;
+    margin-bottom: 5px;
+    position: relative;
+}
+.boknot{
+  width: 100%;
+  /*background-color: white;*/
+  opacity: inherit;
+
+}
+.bkdiv{
+  display: table;
+  text-align: left;
+  margin: 0 auto;
+}
+.bkdivrow{
+  float: left;
+  position:relative;
+  display: table-cell;
+  padding: 0px 14px;
+  vertical-align: middle;
+  cursor: pointer;
+  font-size: 15px ;
+  color: inherit;
+  font-family:'Lato', 'sans-serif';
+}
+img{
+  float: left;
+  vertical-align: bottom;
+  padding:0px 6px;
+}
+.hid{
+  visibility: hidden;
+}
+.hidx{
+  border: 1px;
+  background-color: red;
+  height: 10%;
+  width: 50%;
+}
+.bokm{
+  padding: 4px 4px;
+  border-top:  0.5px solid;
+  margin: 0 auto;
+  text-align: left;
+}
+.catatan{
+  display: block;
+  margin:0 auto;
+  width: 38%;
+
+}
+.teksm{
+  font:16px Arial, Helvetica, sans-serif;
+  columns : auto;
+  column-count : auto;
+  column-fill : balance;
+  column-gap : normal;
+  column-rule : medium none currentColor;
+  column-rule-color : currentColor;
+  column-rule-style : none;
+  column-rule-width : none;
+  column-span : 1;
+  column-width : auto;
+  content : normal;
+  counter-increment : none;
+  counter-reset : none;
+  cursor : auto;
+  direction : ltr;
+  display : inline;
+  empty-cells : show;
+  float : none;
+  left : auto;
+  letter-spacing : normal;
+  line-height : normal;
+  list-style : none;
+  list-style-image : none;
+  list-style-position : outside;
+  list-style-type : disc;
+  margin : 0;
+  margin-bottom : 0;
+  margin-left : 0;
+  margin-right : 0;
+  margin-top : 0;
+}
+
+.ifcari{
+    top: 100px;
+    width: 95%;
+    height: 86%;
+    background-color: white;
+    allowtransparency:true;
+}
+.home{
+  color: white;
+  left: 50px;
+  position: absolute;
+  padding:4px 4px 4px 4px;
+}
+.reset-this {
+  /*
+    animation : none;
+    animation-delay : 0;
+    animation-direction : normal;
+    animation-duration : 0;
+    animation-fill-mode : none;
+    animation-iteration-count : 1;
+    animation-name : none;
+    animation-play-state : running;
+    animation-timing-function : ease;
+    backface-visibility : visible;
+    background : 0;
+    background-attachment : scroll;
+    background-clip : border-box;
+    background-color : transparent;
+    background-image : none;
+    background-origin : padding-box;
+    background-position : 0 0;
+    background-position-x : 0;
+    background-position-y : 0;
+    background-repeat : repeat;
+    background-size : auto auto;
+    border : 0;
+    border-style : none;
+    border-width : medium;
+    border-color : inherit;
+    border-bottom : 0;
+    border-bottom-color : inherit;
+    border-bottom-left-radius : 0;
+    border-bottom-right-radius : 0;
+    border-bottom-style : none;
+    border-bottom-width : medium;
+    border-collapse : separate;
+    border-image : none;
+    border-left : 0;
+    border-left-color : inherit;
+    border-left-style : none;
+    border-left-width : medium;
+    border-radius : 0;
+    border-right : 0;
+    border-right-color : inherit;
+    border-right-style : none;
+    border-right-width : medium;
+    border-spacing : 0;
+    border-top : 0;
+    border-top-color : inherit;
+    border-top-left-radius : 0;
+    border-top-right-radius : 0;
+    border-top-style : none;
+    border-top-width : medium;
+    bottom : auto;
+    box-shadow : none;
+    box-sizing : content-box;
+    caption-side : top;
+    clear : none;
+    clip : auto;
+    color : inherit;*/
+    columns : auto;
+    column-count : auto;
+    column-fill : balance;
+    column-gap : normal;
+    column-rule : medium none currentColor;
+    column-rule-color : currentColor;
+    column-rule-style : none;
+    column-rule-width : none;
+    column-span : 1;
+    column-width : auto;
+    content : normal;
+    counter-increment : none;
+    counter-reset : none;
+    cursor : auto;
+    direction : ltr;
+    display : inline;
+    empty-cells : show;
+    float : none;
+    font : normal;
+    font-family : inherit;
+    font-size : medium;
+    font-style : normal;
+    font-variant : normal;
+    font-weight : normal;
+    height : auto;
+    hyphens : none;
+    left : auto;
+    letter-spacing : normal;
+    line-height : normal;
+    list-style : none;
+    list-style-image : none;
+    list-style-position : outside;
+    list-style-type : disc;
+    margin : 0;
+    margin-bottom : 0;
+    margin-left : 0;
+    margin-right : 0;
+    margin-top : 0;
+  /*  max-height : none;
+    max-width : none;
+    min-height : 0;
+    min-width : 0;
+    opacity : 1;
+    orphans : 0;
+    outline : 0;
+    outline-color : invert;
+    outline-style : none;
+    outline-width : medium;
+    overflow : visible;
+    overflow-x : visible;
+    overflow-y : visible;
+    padding : 0;
+    padding-bottom : 0;
+    padding-left : 0;
+    padding-right : 0;
+    padding-top : 0;
+    page-break-after : auto;
+    page-break-before : auto;
+    page-break-inside : auto;
+    perspective : none;
+    perspective-origin : 50% 50%;
+    position : static; */
+    /* May need to alter quotes for different locales (e.g fr) */
+  /*  quotes : '\201C' '\201D' '\2018' '\2019';
+    right : auto;
+    tab-size : 8;
+    table-layout : auto;
+    text-align : inherit;
+    text-align-last : auto;
+    text-decoration : none;
+    text-decoration-color : inherit;
+    text-decoration-line : none;
+    text-decoration-style : solid;
+    text-indent : 0;
+    text-shadow : none;
+    text-transform : none;
+    top : auto;
+    transform : none;
+    transform-style : flat;
+    transition : none;
+    transition-delay : 0s;
+    transition-duration : 0s;
+    transition-property : none;
+    transition-timing-function : ease;
+    unicode-bidi : normal;
+    vertical-align : baseline;
+    visibility : visible;
+    white-space : normal;
+    widows : 0;
+    width : auto;
+    word-spacing : normal;
+    z-index : auto;*/
+}

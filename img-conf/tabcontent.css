@@ -1,0 +1,77 @@
+﻿/* Tab Content - menucool.com */
+ul.tabs
+{
+    padding: 8px 0;  /*16 lebar tab atas ke bawah */
+    margin:0;
+    font-size: 0;
+    list-style-type: none;
+    text-align: left; /*set to left, center, or right to align the tabs as desired*/
+    padding-left:20px; /* Offset of the first tab */
+}
+
+ul.tabs li
+{
+    display: inline;
+    margin: 0;/*no distance between tabs*/
+    /*background: White;*/
+    background-color: hsla(120, 80%, 5%, 0.7);
+    margin-left: -4px;
+}
+
+ul.tabs li a
+{
+    font: 18px Verdana;
+    text-decoration: none;
+    position: relative;
+    padding: 5px 12px; /*jarak Texk dalam tab dari kiri dan 16 lebar tab atas ke bawah */
+    /*color: #000; Warna Font */
+    color: goldenrod;
+    font-weight: bolder;
+    outline:none;
+    /*background: #F6F6F9;*/
+    background-color: hsla(120, 80%, 5%, 0.7);
+    border:1px solid #CCC;
+    border-right:0;
+}
+
+/*Note: IE8 and earlier doesn't support li:last-child. You have to add another class to the last tab (LI) and specify its border-right as below.*/
+ul.tabs li:last-child a
+{
+    border-right:1px solid #CCC;
+}
+
+ul.tabs li a:hover
+{
+    /*color: #000;
+    background: white;*/
+    color: whitesmoke;
+    font-weight: bolder;
+    background-color: hsla(110, 40%, 90%, 0.3);
+}
+
+ul.tabs li.selected a, ul.tabs li.selected a:hover
+{
+    top: 0px;
+   /* font-weight:normal;
+    background: #FFF;*/
+    background-color: hsla(120, 80%, 5%, 0.2);
+    border-bottom: 3px solid hsla(120, 80%, 5%, 0.7);  /*1px solid gray; Border bottom Selected Tab */
+    /*color: #000; font color on selected */
+    color:whitesmoke;
+    font-weight: bolder;
+}
+
+
+ul.tabs li.selected a:hover
+{
+    text-decoration: none;
+}
+
+div.tabcontents
+{
+    border-top: 0px solid #CCC;
+    padding: 20px 320px;
+    border-left: 0px solid #FFF;
+    color: whitesmoke;
+    /*border: 1px solid #CCC;*/
+}

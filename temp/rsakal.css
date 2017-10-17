@@ -1,0 +1,106 @@
+/* Global Styles */
+
+body, table, div, tr, td {
+	margin:10px;
+	}
+table{
+		border-top: 0px solid whitesmoke;
+}
+/*---ISI-KANAN--STYLE AREA DOWN---*/
+iframe {
+	position: absolute;
+	border-top: 0px dotted #CCC ;
+	border-right: 0px dotted #CCC ;
+	border-left: 0px dotted #CCC ;
+	border-bottom: 1px dotted #CCC ;
+  /*width: 1366px;*/
+  top: 68px;
+  width: 80%;
+  height: 90%;
+  letter-spacing:.4em;
+}
+#isif{
+	color:whitesmoke;
+}
+.no{
+	font-weight: bolder;
+}
+.tarab-X { /*# conf-1 OK fontnya */
+	text-align: right;
+	/*letter-spacing:.0.9em;*/
+	letter-spacing: 1px; /*Jarak antar Huruf*/
+	line-height: 48px; /*Jarak antar baris/line/rows*/
+	/*font:32px Arial, Helvetica, sans-serif;*/
+	/*font:32px 'KacstOne';*/
+	/*font:32px 'KacstQurn';*/
+	/*font:40px 'KacstLetter';*/
+	font-size: 30px;
+	color: #CACFD2 ;
+	/*font-family: 'Droid Arabic Kufi', sans-serif;*/
+	font-family: 'Droid Arabic Naskh', serif;
+	padding:8px 26px 8px 8px;
+	vertical-align:top;
+	font-weight: bolder;
+}
+.tarab {
+	text-align: center;
+	/*letter-spacing:.0.9em;*/
+	letter-spacing: 1px; /*Jarak antar Huruf*/
+	/*font:32px Arial, Helvetica, sans-serif;*/
+	/*font-family: 'KacstOne';*/
+	/*font-family: 'KacstQurn';*/
+	/*font-family: 'KacstLetter';*/
+	font-size: 30px;
+	color: black ;
+	/*color: white;*/
+	/*font-family: 'Droid Arabic Kufi', sans-serif;*/
+	font-family: 'Droid Arabic Naskh', 'serif';
+	/*padding:8px 26px 8px 8px;*/
+	padding:3px 3px 3px 3px;
+	vertical-align:top;
+	font-weight: bolder;
+}
+
+.tindo{
+	width: 700px;
+	color: black ;
+	/*letter-spacing: 0px; Jarak antar Huruf*/
+	line-height: 54px; /*Jarak antar baris/line/rows*/
+	letter-spacing:1px;
+
+	vertical-align:top;
+	font:23px Arial, Helvetica, sans-serif;
+	border: 0px solid white;
+}
+/*=======================================*/
+.qno{
+	width: 52px;
+	padding:2px 4px 2px 4px;
+}
+.qsura{
+	width: 46px;
+	padding:0px 4px 0px 2px;
+}
+.3-rows {}
+.3-rows div {width:33.3%;float:left;}
+/*======================================= */
+.fontarab{
+		text-align: center;
+		/*letter-spacing:.0.9em;*/
+		letter-spacing: 1px; /*Jarak antar Huruf*/
+		font-size: 30px;
+		color: black ;
+		padding:3px 3px 3px 3px;
+		vertical-align:top;
+		font-weight: bolder;
+		/*color: white;*/
+		/*font:32px Arial, Helvetica, sans-serif;*/
+		/*font-family: 'KacstOne';*/
+		/*font-family: 'KacstQurn';*/
+		/*font-family: 'KacstLetter';*/
+
+		/*font-family: 'Droid Arabic Kufi', sans-serif;*/
+		font-family: 'Droid Arabic Naskh', 'serif','Droid Arabic Kufi','KacstLetter','KacstQurn','KacstOne';
+		/*padding:8px 26px 8px 8px;*/
+
+}
