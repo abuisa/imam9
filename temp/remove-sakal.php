@@ -123,12 +123,6 @@ global $link;
 				kopikolom($tbl);
 				delsakal1($tbl);
 			}
-			#echo "<h3>COMPLITE NOT EMPTY !</h3>";
-	    #echo "<H3 class=tarab>FIND : $ra</H3>";
-	    #echo "<H3 class=tarab>REPLACE : $rb</H3>";
-			#echo "<H3 class=tarab>TABEL : $tbl</H3>";
-			#echo "<H3 class=tarab>FIELD : $fld</H3>";
-	    #echo "<H3 class=tarab>TGL : $tgl</H3>";
 		}else {
 			echo "<h3>LENGKAPI DATA !</h3>";
 		}
@@ -141,17 +135,7 @@ global $link;
 		echo "Nama Surah : ".namasurah($ra)."<br>";
 		echo "NOMOR Surah : ".nosurah($rb)."<br>";
 		echo "Nama Halaman : ".$pn."<br>";
-		#echo '<textarea name="dat" cols="55" rows="3" class=" teksm"></textarea>';		
-/*
-		$tut8D =utf8_decode($ra);
-		$tut8E =utf8_encode($ra);
-		$tdata =base64_encode($ra);
-		$dtdata =base64_decode($tdata);
-		$je=json_encode($ra);
-		$jd=json_decode($je);
-*/
-		#boknote($ra,$rb);
-		#delsakalquran("quran_text");
+
 		echo '<hr>';
 		echo  "and a ", 1, 2, 3;   // comma-separated without parentheses
 		echo ("and a 123");        // just one parameter with parentheses
@@ -159,6 +143,8 @@ global $link;
 		$ra ? print "true" : print "false";
 
 		echo'</div>';
+		//-----TES FUNCTION write hadits to file ------------
+		#wtof($ra,$rb);
 	}else {
 		 echo "NOTHING CLICK....";
   }

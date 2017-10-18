@@ -1177,4 +1177,15 @@ function cetakdataqurancari($tb,$cr){
     }
   echo '<a href="#top"><div class="top">Kembali</div></a>';
 }
+//-----FUNCTION write hadits to file ------------
+function wtof($fl,$str){
+	$file = $fl;
+	$d1 = '<html><head><title>H Koleksi</title><meta http-equiv="Content-Type" CONTENT="text/html; charset=utf-8"></head><body>';
+	$d1 = $d1 . "<table><tr><td>".$str."</td></tr></table>";
+	$datanya = $d1 . "</body></html>"; 
+	// Write the contents to the file, 
+	// using the FILE_APPEND flag to append the content to the end of the file
+	// and the LOCK_EX flag to prevent anyone else writing to the file at the same time
+	file_put_contents($file, $datanya, FILE_APPEND | LOCK_EX);
+}
 ?>
