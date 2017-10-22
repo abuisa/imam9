@@ -1180,8 +1180,9 @@ function cetakdataqurancari($tb,$cr){
 //-----FUNCTION write hadits to file ------------
 function wtof($fl,$str){
 	$file = $fl;
-	$d1 = '<html><head><title>H Koleksi</title><meta http-equiv="Content-Type" CONTENT="text/html; charset=utf-8"></head><body>';
-	$d1 = $d1 . "<table><tr><td>".$str."</td></tr></table>";
+	$d1 = '<html><head><title>H Koleksi</title><link href="../img-conf/menu-isi.css" rel="stylesheet" type="text/css" />';
+	$d1 = $d1 . '<meta http-equiv="Content-Type" CONTENT="text/html; charset=utf-8"></head><body>';
+	$d1 = $d1 . '<table><tr><td class="tarab">'.$str.'</td></tr></table>';
 	$datanya = $d1 . "</body></html>"; 
 	// Write the contents to the file, 
 	// using the FILE_APPEND flag to append the content to the end of the file
@@ -1189,5 +1190,6 @@ function wtof($fl,$str){
 	file_put_contents($file, $datanya, FILE_APPEND | LOCK_EX);
 	# Fungsi untuk nulis data (Hadits arab atau terjemahan) menjadi sebuah file HTML,
 	# Nantinya akan ditambahkan icon menu (kertas) di samping catatan untuk eksekusi fungsi ini.
+	# Fungsi ini sementara di lakukan tes di /temp/remove-sakal.php
 }
 ?>

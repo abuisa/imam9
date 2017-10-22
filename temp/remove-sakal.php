@@ -144,7 +144,12 @@ global $link;
 
 		echo'</div>';
 		//-----TES FUNCTION write hadits to file ------------
-		#wtof($ra,$rb);
+		
+		# $ra = file name : string diambil dari --FIND-- box 
+		# $rb = String yang akan ditulis ke file : diambil dari --REPLACE-- box  
+		# Sementara di nonaktifkan 
+		# wtof($ra,$rb);
+		
 	}else {
 		 echo "NOTHING CLICK....";
   }
